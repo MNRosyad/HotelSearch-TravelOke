@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UTS_TravelOke" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ThColor_level3</item>
+        <item name="colorPrimaryVariant">@color/ThColor_level4</item>
+        <item name="colorOnPrimary">@color/gray_level3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ThColor_level2.2</item>
+        <item name="colorSecondaryVariant">@color/ThColor_level3.2</item>
+        <item name="colorOnSecondary">@color/ThColor_level1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ThColor_level3</item>
+        <item name="colorPrimaryVariant">@color/ThColor_level4</item>
+        <item name="colorOnPrimary">@color/gray_level3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ThColor_level2.2</item>
+        <item name="colorSecondaryVariant">@color/ThColor_level3.2</item>
+        <item name="colorOnSecondary">@color/ThColor_level1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <!--  Action Bar  -->
+    <style name="ActionBar.TextDark" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionBar.Dark" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/ThColor_level4</item>
+        <item name="titleTextStyle">@style/ActionBar.TextDark</item>
+    </style>
+
+    <!--  Button Styles  -->
+    <style name="regularButton_level1">
+        <item name="android:background">@color/ThColor_level2</item>
+        <item name="android:backgroundTint">@color/ThColor_level2</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="regularButton_level2">
+        <item name="android:background">@color/ThColor_level3</item>
+        <item name="android:backgroundTint">@color/ThColor_level3</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

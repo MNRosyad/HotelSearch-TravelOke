@@ -1,0 +1,72 @@
+<resources>
+    <!--  Main App  -->
+    <string name="app_name">Travel Oke!</string>
+
+    <!--  Random  -->
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu neque magna. Cras non velit vitae felis fringilla volutpat. Nullam commodo fringilla felis, eget placerat tortor consequat id. In ornare dui quis faucibus fringilla. Proin et rhoncus lectus, sed volutpat mauris. Fusce blandit tempor orci sed volutpat. Nam ipsum odio, vulputate eget erat sit amet, vehicula tempor nulla. Duis sagittis ornare. Vivamus ac purus scelerisque, cursus dui quis, interdum sapien. Duis vel vulputate ante, sit amet mattis leo. Duis tristique ligula lorem, in bibendum ipsum blandit vel.
+        \n\n
+        Praesent non sapien at neque eleifend sagittis. Cras pulvinar diam sed blandit eleifend. Phasellus urna justo, scelerisque sit amet libero id, finibus sollicitudin sapien. Duis non elit placerat, consectetur elit et, vestibulum lorem. Sed hendrerit facilisis mauris ac vestibulum. Integer finibus leo ipsum, et tincidunt erat lacinia sit amet. Cras tincidunt fringilla eros sit amet efficitur. Mauris ultricies enim quis elit eleifend fringilla quis eu erat. Vestibulum vel vestibulum risus.
+        \n\n
+        Sed hendrerit felis vitae eros eleifend sagittis. Quisque eu elit in eros molestie feugiat ac a lectus. Aliquam eu convallis leo, quis cursus elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam blandit dictum eros, sed facilisis magna molestie in. Aenean in turpis luctus, semper sapien mattis, tristique massa. Donec ut neque vitae orci ultrices vehicula. Nulla pellentesque id tellus ac semper. Praesent sodales augue a mauris tincidunt porttitor. Nulla quis porta ligula, sollicitudin mattis lorem. In laoreet elit lectus, eget tempor purus mattis a. Curabitur in turpis a dui rutrum luctus. Vestibulum in nibh imperdiet, bibendum sapien sed, interdum nunc. Curabitur porta felis non lacus scelerisque, eget luctus libero scelerisque. Mauris viverra molestie euismod.
+    </string>
+
+    <!--  Login Activity  -->
+    <string name="title_login">TravelOke🐦</string>
+    <string name="input_email">Email</string>
+    <string name="input_password">Password</string>
+    <string name="submit_login">Login</string>
+
+    <!--  Search Activity  -->
+    <string name="title_opening">Selamat Datang</string>
+    <string name="description_opening">Mulai cari hotel dengan menentukan tanggal berikut</string>
+    <string name="check_in">Tanggal Check-in</string>
+    <string name="check_out">Tanggal Check-out</string>
+    <string name="date_pick">Tentukan Tanggal</string>
+    <string name="room_pick">Tentukan Jumlah Kamar</string>
+    <string name="total_rooms">Total Kamar</string>
+    <string name="search_btn">Cari Hotel</string>
+    <string name="choose">Pilih tanggal</string>
+    <string name="showTotalRoom">Pilih total kamar</string>
+    <string name="spinnerLabel">Belum dipilih</string>
+
+    <string-array name="room_available">
+        <item>1 Kamar</item>
+        <item>2 Kamar</item>
+        <item>3 Kamar</item>
+        <item>4 Kamar</item>
+    </string-array>
+
+    <!--  Result Activity  -->
+    <string name="title_result">Hasil Pencarian</string>
+    <string name="data_checkIn">Tanggal Check-In : </string>
+    <string name="data_checkOut">Tanggal Check-Out : </string>
+    <string name="data_totalRooms">Banyak Kamar : </string>
+    <string name="title_hotel">Nama Hotel</string>
+    <string name="desc_hotel">Deskripsi Hotel</string>
+
+    <string-array name="title_list">
+        <item>Hotel Tentrem</item>
+        <item>Hotel Saphire</item>
+        <item>Hotel Phoenix</item>
+        <item>Hotel Indolux</item>
+        <item>Hotel Hyatt</item>
+        <item>Hotel Santika</item>
+        <item>Hotel Srikandi</item>
+        <item>Hotel Arjuna</item>
+        <item>Hotel Bhineka</item>
+        <item>Hotel Malioboro</item>
+    </string-array>
+    <string-array name="desc_list">
+        <item>Rating ★★★★☆</item>
+        <item>Rating ★★★☆☆</item>
+        <item>Rating ★★★★★</item>
+        <item>Rating ★★★☆☆</item>
+        <item>Rating ★★★★☆</item>
+        <item>Rating ★★★★★</item>
+        <item>Rating ★★★★★</item>
+        <item>Rating ★★★☆☆</item>
+        <item>Rating ★★★☆☆</item>
+        <item>Rating ★★★★☆</item>
+    </string-array>
+</resources>
